@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Riot Map</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+                <form action="">
+                    <input id="search"type="text">
+                </form>
+                <div class="places">
+                    <p><strong id="home">eistleigh</strong></p>
+                    <p><strong id="away">nairobi</strong></p>
+                    <p><strong>thika</strong></p>
+                    
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div id="map">
+
+                </div>
+            </div>
+          </div>
+      </div>
+      <script src="jquery-3.2.1.js"></script>
+      <script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAfeePmXWfr3eKsSfpBlGsycHdES0kyOsI&libraries=places,geometry"></script>
+      <!-- <script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAfeePmXWfr3eKsSfpBlGsycHdES0kyOsI&libraries=places,geometry"></script> -->
+      <script src="map.js"></script>
+</body>
+</html>
